@@ -17,7 +17,7 @@ video::k-DxZ1reIdM[youtube]
 A form is a collection of input fields that are connected to a data model, a `Contact` in this case. 
 Forms validate user input and make it easy to get an object populated with input values from the UI. 
 
-Vaadin users the <<../../binding-data/tutorial-flow-components-binder#,`Binder`>> class to build forms. 
+Vaadin uses the <<../../binding-data/tutorial-flow-components-binder#,`Binder`>> class to build forms. 
 It binds UI fields to data object fields by name. 
 For instance, it takes a UI field named `firstName` and maps it to the `firstName` field of the data object, and the `lastName` field to the `lastName` field, and so on. 
 This is why the field names in `Contact` and `ContactForm` are the same. 
